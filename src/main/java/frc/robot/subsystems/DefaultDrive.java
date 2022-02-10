@@ -54,14 +54,14 @@ private DifferentialDrive differentialDrive1;
 leftFrontMotor = new CANSparkMax(4, MotorType.kBrushless);
  
  leftFrontMotor.restoreFactoryDefaults();  
-leftFrontMotor.setInverted(true);
+leftFrontMotor.setInverted(false);
 leftFrontMotor.setIdleMode(IdleMode.kCoast);
   
 
 leftBackMotor = new CANSparkMax(3, MotorType.kBrushless);
  
  leftBackMotor.restoreFactoryDefaults();  
-leftBackMotor.setInverted(true);
+leftBackMotor.setInverted(false);
 leftBackMotor.setIdleMode(IdleMode.kCoast);
   
 

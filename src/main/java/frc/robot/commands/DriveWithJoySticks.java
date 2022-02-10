@@ -59,7 +59,7 @@ public class DriveWithJoySticks extends CommandBase {
     // Called every time the scheduler runs while the command is scheduled.
     @Override
     public void execute() {
-        m_defaultDrive.my_DriveMotors(-m_LeftSpeed.getAsDouble(), m_RightSpeed.getAsDouble());
+        m_defaultDrive.my_DriveMotors(-m_LeftSpeed.getAsDouble(), -m_RightSpeed.getAsDouble());
     }
     
 
